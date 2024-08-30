@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    /* padding-top: 100px; */
+}
+
+#left {
+    margin-left: 10%;
+    padding-top: 110px;
+    height: 100%;
+    width: 45%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#left h2{
+    font-size: 6vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+#bottom-left{
+    height: 45%;
+    width: 100%;
+    /* background-color: yellow; */
+}
+
+#color{
+    /* background-color: blue; */
+width: fit-content;
+padding: 5px;    
+display: flex;
+border: 1px solid black;
+border-radius: 50px;
+
+}
+
+#color h5{
+    font-size: 1vw;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#color1{
+    margin-left: 5px;
+    margin-top: 3px;
+    height: 17px;
+    width: 17px;
+    background-color: rgb(99, 150, 150);
+    border-radius: 50%;
+}
+
+#color2{
+    margin-left: 3px;
+    border-radius: 50%;
+    margin-top: 3px;
+
+    height: 17px;
+    width: 17px;
+    background-color: rgb(179, 99, 152);
+}
+#para h4{
+
+    margin-top: 40px;
+    font-size: 1.3vw;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#para p{
+
+    margin-top: 10px;
+    font-size: 1vw;
+    line-height: 1.3vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #303030;
+}
+
+
+
+
+#right {
+
+margin-top: 15%;
+margin-right: 18%;
+    height: 79.2%;
+    width: 22%;
+    position: relative;
+    /* background-color: blue; */
+}
+
+#top-left{
+    height: 40px;
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#top-left h4{
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#top-left h5
+{
+    font-size: 0.6vw;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#right img{
+width: 100%;
+height: 93%;
+object-fit: cover;
+}
+
+
+#circle{
+
+    position: absolute;
+    height: 125px;
+    width: 125px;
+    background-color: rgb(41, 34, 34);
+    bottom: 60%;
+    left: 85%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+#circle h4{
+
+    font-size: 1vw;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#last{
+    position: absolute;
+    width: fit-content;
+    /* background-color: red; */
+    rotate: -90deg;
+   left: -15%;
+   bottom: 5%;
+   transform-origin: 0 0;
+}
+
+#last h1{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    font-weight: 500;
+}
